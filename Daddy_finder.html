@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+	
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+	<h1></h1>
+		<h2>PRIUS: Parental Relationship Identification Using Subtraction </h2>
+		<form action = 'cgi-bin/Daddy_finder.py'>
+			<label>DNA extraction ID: </label>
+			<input type='text' name='ID' size='25' placeholder=' e.g. FW1111'>
+			<button type='submit' onclick="$('#loading').show();"/>Enter</button><br><br>
+			<br>
+		</form>
+	<script>
+		function message() {
+		    alert("PRIUS might take a while to finish; please be patient! ");
+			}
+	</script>
+
+<div id="loading" style="display:none;"><img src="loading.gif" alt="" /></div>
+
+		
+</body>
+</html>

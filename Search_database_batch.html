@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+</style>
+</head>
+<body>
+	<h1></h1>
+		<h2>TESLA: Taxon Enquiry based on Similarity of Loci and Alleles </h2>
+		<form action="cgi-bin/Search_database_batch.py" method="post" enctype="multipart/form-data">
+			<p><input type="file" name="file"></p>
+			<p><input type="submit" value="Upload">
+			<input type='button' value='Download template' onClick="window.location.href='http://sites.biology.duke.edu//windhamlab/query_import.xls'"></p>
+			<input type="checkbox" name="MatchOnlyDiploid" value="MatchOnlyDiploid">Search only sexual diploids (i.e. heterozygosity < 0.5)<br>	
+
+		</form>
+</body>
+</html>

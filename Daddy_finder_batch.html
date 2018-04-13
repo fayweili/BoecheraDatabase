@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+	<h1></h1>
+		<h2>PRIUS: Parental Relationship Identification Using Subtraction </h2>
+		<form action="cgi-bin/Daddy_finder_batch.py" method="post" enctype="multipart/form-data">
+			<p><input type="file" name="file"></p>
+			<p><input type="submit" value="Upload" onclick="$('#loading').show();">
+			<input type='button' value='Download template' onClick="window.location.href='http://sites.biology.duke.edu/windhamlab/query_import.xls'"></p>
+
+			<br>
+		</form>
+	<script>
+		function message() {
+		    alert("PRIUS might take a while to finish; please be patient! ");
+			}
+	</script>
+<div id="loading" style="display:none;"><img src="loading.gif" alt="" /></div>
+
+</body>
+</html>

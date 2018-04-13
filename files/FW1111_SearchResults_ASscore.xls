@@ -1,0 +1,102 @@
+AS_score	DNA extraction#	Taxon ID	State/Province	County	I3	I3	I3	I3	A1	A1	A1	B20	B20	B20	B20	B11	B11	B11	C8	C8	C8	C8	I14	I14	I14	B9	B9	B9	B9	E9	E9	E9	E9	B18	B18	B18	B18	BF3	BF3	BF3	BF3	B6	B6	B6	B6	BF19	BF19	BF19	BF19	BF19	BF19	BF15	BF15	BF15	BF15	A3	A3	A3	A3	A3	A3	B266	B266	B266	B266
+-	Query=FW1111	laevigata x laevigata x stricta x stricta	Michigan	Alcona	77	81			238			211	220			75	88		233	264			217	223		84	106			200				117	121			89				302	326			113	116	159				95				288						99	133			
+0.6000	FW883	laevigata	Pennsylvania	Elk	73				238			228				75			233				217			84				198	200			121				0				324				113	116	122				0				288						100	116		
+0.5333	JB1204	laevigata	Illinois	JoDaviess	75				238			216				75			233				217			84				198	200			144				0				324				113	116	117				0				288						100			
+0.4978	JB247	missouriensis	Arkansas	Montgomery	0				238			212				75			233				214			84				200	238							0				326				113						0				297						99			
+0.4667	JB1211	missouriensis	Massachusetts	Hampden	99				238			212				75			239				214			84				198	200			127				0				326				113						0				308						99			
+0.4356	FW636	laevigata	Wisconsin	Richland	75				238			232				75			233				217			84				198	200			140				0				324				116						0										100			
+0.4000	FW1503	laevigata	Illinois	Peoria	81				238			222				75			251				217			84				219				113				0				321				116						0				305						0			
+0.4000	FW881	laevigata	Arkansas	Polk	103				238			220				75			0				223			84				201	240			117				93	97			328				97						0				303						126	132		
+0.4000	MS557	stricta	Utah	Box Elder	73				238			211				86			260				223			90				215				117				115				302				136						99				248						133			
+0.4000	CR1077	stricta	Colorado	Conejos	77				238			213				88			253				223			94				202				117				101				302				165						101				248						127			
+0.4000	JB258	perennans	Arizona	Coconino	77				238			211				82			260				223			84				199				115				111				307				143						93				248	255					133			
+0.4000	FW1444	laevigata	Wisconsin	Adams	75				238			239				75			233				217			84				198	200			133				0				324				117						0				294						100			
+0.4000	FW1445	laevigata x laevigata	Wisconsin	Iowa	77	109			238			208				75							217			84				198	200	229		113	117			93				309	324			116	134					0				288	303					0			
+0.4000	FW288	laevigata	North Carolina	Mitchell	77				238			216				75			249				217			84				244				113				133				305				122	132					0				303						99			
+0.4000	PJA398a	stricta	Colorado	Saguache	77				238			213				88			253				223			88				204				118				105				302				146						99				248						133			
+0.4000	FW1129	laevigata	West Virginia	Hardy	69				238			214				75			257				217			84				231				121				0				309				113	115					0				303						100			
+0.4000	FW1124	laevigata	West Virginia	Monroe	75				238			222				75			233				217			84				198	231			121				0				307				117						0				303						100			
+0.4000	JB351	perennans	California	San Diego	73	77			238			209				82			246	260			223			84				199				117				111	145			301	303			153	159					93				248	255					135	141		
+0.3733	FW761	stricta	Colorado	Park	75				238			213				86	88		253				223			90				202	219			117	120			101				302				143	159					99	101									121			
+0.3733	FW1504	laevigata	Pennsylvania	Allegheny	81				238			220				75			251				217			84				210				113				0				321				134						0										100			
+0.3600	FW634	laevigata x laevigata	Ohio	Putnam	73	155			238			208	234			75			233				217			84				198	203	212	217	125	142			0				317	326			113	116	121				0				288	303					100			
+0.3333	FW1318	parishii	California	San Bernardino	85				249			211	213			80			244	245			223			76				212				115	117			101				294	304			159						86				0						108	133		
+0.3333	LA459	schistacea	Utah	Garfield	81	125			238			215	221			82	84		240	242			223			74				200				113				103				301				147						89				248						133	141		
+0.3333	LA458	schistacea	Utah	Garfield	81	125			238			215	221			82	84		240	242			223			74				200				113				103				301				147						89				248						133	141		
+0.3333	LA455	schistacea	Utah	Garfield	81				238			221				82			242				223			74				200				113				103				299	301			147						89				248						133			
+0.3333	LA454	schistacea	Utah	Garfield	81				238			215	219			84			240	242			223			74				200				113				103				299	301			147						89				248						133	141		
+0.3333	PJA400a	stricta	Colorado	Rio Blanco	77				238			213				88			253				223			90				217				118				111				302				143						99				248						125			
+0.3333	JB376	stricta	Idaho	Cassia	75				238			213				88			252				223			90				200				118				117				302				141						99				248	255					123			
+0.3333	JB378	stricta	New Mexico	Sandoval	75				238			213				88			253				223			94				202				117				101				302				157						101				248						127			
+0.3333	LA461	schistacea	Utah	Garfield	81				238			215	225			82			242				223	227		74				200				113				103				301				147						89				248						133			
+0.3333	JB991	crandallii	Colorado	Saguache	77				238			209				80			231				214			84				194				117				99				299				0						107				0						133			
+0.3333	FW1015	retrofracta	Washington	Lincoln	89				238			220				80			264				217			86				203				115				93				303				151						93				0						133			
+0.3333	CR1090	stricta	Wyoming	Park	73				238			213	217			76	88		258				223			100				212				117				99				302				0						99	103			248						129			
+0.3333	JB185	stricta	Utah	Beaver	77				238			213				88			260				223			82				202				118				109				302				141						99				248						123			
+0.3333	JB775	stricta	Washington	Ferry	75				238			213				88			273				223			94				210				117				119				302				151						101				248						129			
+0.3333	JB772	stricta	British Columbia		77				238			213				98			273				223			84				210				119				123				302				155	157					101				248						123			
+0.3333	JB173	retrofracta	California	Siskiyou	75	89			238			212	218			80			246	248			217			92	94			207				117				93				301				142	147	159				93	95			0						129			
+0.3333	LA289	schistacea	Utah	Garfield	81				238			213				84			240				223			74				200				113				103				299				147						89				248						133	148		
+0.3333	LA460	schistacea	Utah	Garfield	81				238			221	225			82	84		242				223			74				200	202			113				103				299	301			147	161					89				248						133	143		
+0.3333	LA463	schistacea	Utah	Garfield	81	121			238			221				84			240	242			223			74				200				113				103				301				147						89				248						133	137		
+0.3333	JB1452	texana	Texas	Presidio	89				238			211				80			232				211			80				200				117				109				309				155	165					115				239						133			
+0.3333	FW769	perennans	Chihuahua		75				238			217				82			250				223			84				199				117				133				307				0						93				248						133	135		
+0.3333	LA84	schistacea	Utah	Garfield	81				238			221	225			82			240				223			74				200	202			113				103				301				147	161					89				248						133			
+0.3333	FW172	stricta	Alaska		75				238			207				98			273				223			84				210				117				99				302				151						101				248						127			
+0.3333	FW171	stricta	Yukon		75				238			213				88			273				223			92				204				117				99				302				155	157					101				248						121			
+0.3333	FW937	stricta	Colorado	Clear Creek	73				238			213				88			253				223			82				204				117				99				302				143						99				248						123			
+0.3333	JB205	crandallii	Colorado	Montrose	77	79			238			209	211			80			231	232			214			84	86			194				117				99				299				0						103	124			0						119			
+0.3333	CR1182	stricta	Colorado	Montezuma	75				238			219				88			262				223			106				202				118				113				302				0						99				248						129			
+0.3333	JB1056	stricta	Wyoming	Johnson	77				238			213				88			253				223			90				208				118				97				302				153						99				248						125			
+0.3333	JB1040	schistacea	Wyoming	Uinta	81				238			209				90			240				223			74				200				113				115				301				159						89				248						137			
+0.3333	CR1357	texana	Texas	Brewster	73				238			207				80			232				211			84				200				117				119				313				0						117				245						133			
+0.3333	MS165	retrofracta	California	Plumas	87				238			214	224			80			230				217			86	92			207				115	117			93				301				0						93	95			0						133			
+0.3333	MS163	retrofracta	California	Plumas	87				238			214	224			80			230				217			86	92			207				115	117			93				301				0						93	95			0						133			
+0.3333	MS169	retrofracta	California	Plumas	87				238			214	224			80			230				217			86	92			207				115	117			93				301				0						93	95			0						133			
+0.3333	FW1081	missouriensis	Missouri		73				238			212				75			237				214			84				206	238			117				113				315				113						94				302						100			
+0.3333	CR1006	crandallii	Colorado	Gunnison	77	83			238			209				80			232				214			84				194				117				99				299				0						107	120			0						119	133		
+0.3333	CR1007	crandallii	Colorado	Hinsdale	77	79			238			209				80			231				214			84				194				117				99				299				0						103				0						133			
+0.3333	FW287	laevigata	Virginia	Wise	75				238			222				75			251				217			84				246				113				0				321				134						0				308						99			
+0.3333	JB866	retrofracta	Oregon	Josephine	87				238			216	218			80			242	244			217			92	96			209				117				93				301				155						93	95			0						131	133		
+0.3333	FW631	laevigata	Kentucky	Bracken	91				238			208	234			75			251				217			84				200	217	223		113	123			0				301	321			151						0				303	307					100			
+0.3333	FW632	laevigata	New York	Putnam	75				238			214				75			251	259			217			84				212				121				0				299				117	120					0				298						100			
+0.3333	JB698	crandallii	Colorado	Gunnison	77				238			209				80			231	232			214			84	86			194				117				99				299				0						103	107			0						133			
+0.3333	JB699	crandallii	Colorado	Montrose	77	79			238			209				80			231	232			214			84				194				117				99				299				0						107	120			0						119	133		
+0.3333	JB694	crandallii	Colorado	Gunnison	77	79			238			209				80			231	232			214			84				194				117				99				299				0						107	120			0						119	133		
+0.3333	MS554	stricta	Utah	Box Elder	75				238			211				86			260				223			96				212				117				115				302				134						99				248						131			
+0.3333	JB1241	schistacea	Utah	Garfield	81				238			213				84			240				223			74				200				113				103				301				147						89				0						133			
+0.3333	CR1154	perennans	New Mexico	Grant	0				238			211				82			257				223			81				199				117				99				326				151						93				248						129			
+0.3333	FW1104	perennans	California	San Diego	75				238			201				82			258				223			84				199				117				170				303				151						93				248	255					133			
+0.3333	JB101	crandallii	Colorado	Hinsdale	77	79			238			209				80			231				214			84				194				117				99				299				0						103				0						133			
+0.3333	CR1075	stricta	Alberta		75				238			213				96			273				223			110				210				117				99				302				149	159					103				248						129			
+0.3333	JB259	perennans	Arizona	Gila	77				238			211				82			250				223			98				207				117				127				317				136						93				248						129			
+0.3333	FW284	stricta	Colorado	Boulder	81				238			213				88			253				223			82				217				118				113				302				141						99				248						121			
+0.3333	FW286	laevigata	Kentucky	Pulaski	67	91			238			220				75			251				217			84				246				113				0				321	324			122	134	140				0				308						100			
+0.3333	FW1130	laevigata	West Virginia	Hampshire	69	71			238			206				75			255	257			217			84				240				121				0				309				115	117					0				303						100			
+0.3333	FW1131	laevigata	Pennsylvania	Indiana	81				238			222				75			251				217			84				246				113				0				324				134						0				305						100			
+0.3333	FW1137	laevigata	West Virginia	Fayette	81				238			218				75			251				217			84				250				113				0				321				134						0				307						100			
+0.3333	FW865	laevigata	Tennessee	Washington	0				238			218				75			286				217			84				204				117				93				339				117						87	104			298						0			
+0.3333	FW1128	laevigata	West Virginia	Grant	69	75			238			229	241			75			257				217			84				236				121				0				307	311			115	117					0				298						100			
+0.3333	FW1126	laevigata	West Virginia	Pocahontas	71				238			224				75			251				217			84				198				121				0				321				115	125					0				303						100			
+0.3333	FW1123	laevigata	Virginia	Craig	71				238			228				75			257	259			217			84				208				121				0				307				117	120					0				298						100			
+0.3333	FW678	puberula	Oregon	Harney	83				238			211				88			238				223			76				196				117				93				323				132						93				248						0			
+0.3333	LA93	schistacea	Wyoming	Uintah	81				238			209				86			240				223			74				200				113				113				301				159						89				248						139	146		
+0.3333	PJA181	shevockii	California	Tulare	71	73			238			209	211			83			0				227			84				200				115	117			0				309				138	157	167				99	101			211						0			
+0.3333	FW497	crandallii	Colorado	Montrose	77	79			238			209	211			80			231	232			214			84				194				117				99				299				0						107	122			0						119			
+0.3333	FW34	stricta	Colorado	Ouray	75				238			211				86			260				223			102				212				117				113				302				0						99				248						129			
+0.3333	FW929	shevockii	California	Tulare	71	73			238			209	211			83			0				227			84				200				115	117			0				309				138	157	167				99	101			211						0			
+0.3333	JB262	perennans	Arizona	Pima	75				238			211				82			246				223			84				197				117				123				309				0						93				248	255					121			
+0.3333	FW612	cusickii	Idaho	Owyhee	77				238			203				77			252				223			88				199				117				107				299				157						89				250	253					133			
+0.3333	LA323	schistacea	Utah	Piute	81				238			223				84			242				223			74				202				113				101				301				147	159					89				248						133	148		
+0.3333	LA86	schistacea	Utah	Garfield	81	125			238			219	221			82			240				223			74				200				113				103				299	301			147						89				248						133	137		
+0.3333	FW935	stricta	Arizona	Apache	75				238			211				88			251				223			90				202				118				117				302				143						99				248						121			
+0.3333	FW29	missouriensis	Missouri	Ste. Genevieve	73				238			212				75			237				214			84				219	227			123				0				321				113						0				297						99			
+0.3333	FW938	stricta	Utah	Daggett	77				238			213				88			251				223			94				202				118				111				302				143	161					99				248						131			
+0.3333	CR1184	stricta	Utah	San Juan	77				238			213				88			262				223			89				202				118				113				302				141						99				248	255					125			
+0.3333	LA77	schistacea	Utah	Garfield	81	127			238			225				84			240	242			223			74				200	202			113				103				301				147	161					89				248						133	137		
+0.3333	FW936	stricta	Colorado	Boulder	75	77			238			213				88			255				220	223		88	90			219				118				105	115			302				143	153					99				248	255					123	127		
+0.3200	FW1132	laevigata x laevigata	Pennsylvania	Mercer	73	103			238			208	216			75			233				217			84				196	200	206	221	123	135			93				324	350			111	115	116	134			0				288						100			
+0.3200	FW1134	laevigata x laevigata	Michigan	Shiawassee	73	103			238			208	216			75			233				217			84				196	200	206	219	123	135			93				324	352			111	115	116	134			0				288						100			
+0.3200	FW1135	laevigata x laevigata	Indiana	St. Joseph	73	103			238			208	216			75			233				217			84				196	200	206	221	123	135			93				324	358			111	115	116	134			0				288						100			
+0.3200	JB1203	laevigata x laevigata	Quebec	Huntingdon	73	111			238			208	216			75			233				217			84				196	200	206	221	123	135			93				324	333			111	115	116	134			0				288						100			
+0.3200	JB1202	laevigata x laevigata	Ontario	Hastings	73	111			238			208	216			75			233				217			84				196	200	206	221	123	135			93				324	342			111	115	116	134			0				288						100			

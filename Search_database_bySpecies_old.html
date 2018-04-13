@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+</style>
+</head>
+<body>
+	<h1></h1>
+		<h2>Search by taxon </h2>
+		<form action = 'cgi-bin/Search_database_bySpecies.py'>
+			<label>Taxon name: </label>
+			<input type='text' name='species' size='25' placeholder=' e.g. thompsonii'>
+			<button type='submit'>Enter</button>
+			<br>
+			<br>
+			<input type="checkbox" name="MatchOnlyDiploid" value="MatchOnlyDiploid">Display only sexual diploids </div><br>
+			<input type="checkbox" name="MatchOnlyApomict" value="MatchOnlyApomict">Display only apomictic hybrids </div>
+			
+		</form>
+</body>
+</html>

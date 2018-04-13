@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+</style>
+</head>
+<body>
+	<h1></h1>
+		<h2>TESLA: Taxon Enquiry based on Similarity of Loci and Alleles </h2>
+		<form action = 'cgi-bin/Search_database_byID.py'>
+			<label>DNA extraction ID: </label>
+			<input type='text' name='ID' size='25' placeholder=' e.g. FW1111'>
+			<button type='submit'>Enter</button>
+			<br><br>
+			<input type="checkbox" name="MatchOnlyDiploid" value="MatchOnlyDiploid">Search only sexual diploids (i.e. heterozygosity < 0.5)</div>
+			<br>	
+		</form>
+
+	<script type="text/javascript">
+		function help_click(div, txt) { if (div.innerHTML == "") div.innerHTML = "   " + txt; else div.innerHTML = ""; }
+	</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+table {
+    font-family: arial, sans-serif;
+	font-size:10pt;    
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: 4px;
+}
+
+
+</style>
+</head>
+<body>
+	<h1></h1>
+		<h2>Search by taxon </h2>
+		<form action = 'cgi-bin/Search_database_bySpecies.py'>
+			<label>Taxon name: </label>
+			<input type='text' name='species' size='25' placeholder=' e.g. thompsonii'>
+			<button type='submit'>Enter</button>
+			<br>
+			<br>
+			<input type="checkbox" name="MatchOnlyDiploid" value="MatchOnlyDiploid">Display only sexual diploids </div><br>
+			
+		</form>
+
+<label>Searchable taxa: </label>		
+<table class="tableizer-table" id="taxa_list" >
+<thead><tr class="tableizer-firstrow"><th>Clade</th><th>Genome</th><th>S2x samples</th></tr></thead><tbody>
+ <tr><td>perstellata</td><td>ampla*</td><td>4</td></tr>
+ <tr><td>platysperma</td><td>angelorum*</td><td>26</td></tr>
+ <tr><td>arcuata</td><td>arcuata</td><td>35</td></tr>
+ <tr><td>puberula</td><td>arida*</td><td>33</td></tr>
+ <tr><td>sparsiflora</td><td>atrorubens</td><td>19</td></tr>
+ <tr><td>sparsiflora</td><td>breweri</td><td>27</td></tr>
+ <tr><td>burkei</td><td>burkei</td><td>2</td></tr>
+ <tr><td>microphylla</td><td>caeruleamontana*</td><td>173</td></tr>
+ <tr><td>canadensis</td><td>canadensis</td><td>4</td></tr>
+ <tr><td>cobrensis</td><td>cobrensis</td><td>28</td></tr>
+ <tr><td>suffrutescens</td><td>constancei</td><td>15</td></tr>
+ <tr><td>microphylla</td><td>crandallii</td><td>36</td></tr>
+ <tr><td>sparsiflora</td><td>cusickii</td><td>35</td></tr>
+ <tr><td>davidsonii</td><td>davidsonii</td><td>18</td></tr>
+ <tr><td>dentata</td><td>dentata</td><td>5</td></tr>
+ <tr><td>dispar</td><td>dispar</td><td>11</td></tr>
+ <tr><td>suffrutescens</td><td>duriuscula*</td><td>10</td></tr>
+ <tr><td>microphylla</td><td>evadens</td><td>8</td></tr>
+ <tr><td>exilis</td><td>exilis</td><td>15</td></tr>
+ <tr><td>falcata</td><td>falcata</td><td>3</td></tr>
+ <tr><td>fecunda</td><td>fecunda</td><td>30</td></tr>
+ <tr><td>perennans</td><td>fendleri</td><td>71</td></tr>
+ <tr><td>microphylla</td><td>fernaldiana</td><td>41</td></tr>
+ <tr><td>pulchra</td><td>formosa</td><td>80</td></tr>
+ <tr><td>glaucovalvula</td><td>glaucovalvula</td><td>27</td></tr>
+ <tr><td>perennans</td><td>gracilipes</td><td>41</td></tr>
+ <tr><td>johnstonii</td><td>hirschbergiae</td><td>3</td></tr>
+ <tr><td>hoffmanii</td><td>hoffmannii</td><td>5</td></tr>
+ <tr><td>holmgrenii</td><td>holmgrenii*</td><td>30</td></tr>
+ <tr><td>platysperma</td><td>howellii</td><td>25</td></tr>
+ <tr><td>microphylla</td><td>imnahaensis*</td><td>22</td></tr>
+ <tr><td>johnstonii</td><td>johnstonii</td><td>21</td></tr>
+ <tr><td>dispar</td><td>juniperina*</td><td>14</td></tr>
+ <tr><td>microphylla</td><td>kelseyana</td><td>18</td></tr>
+ <tr><td>sparsiflora</td><td>koehleri</td><td>10</td></tr>
+ <tr><td>laevigata</td><td>laevigata</td><td>40</td></tr>
+ <tr><td>lasiocarpa</td><td>lasiocarpa</td><td>37</td></tr>
+ <tr><td>lemmonii</td><td>lemmonii</td><td>69</td></tr>
+ <tr><td>pulchra</td><td>lincolnensis</td><td>41</td></tr>
+ <tr><td>macrophylla</td><td>macrophylla</td><td>5</td></tr>
+ <tr><td>laevigata</td><td>missouriensis</td><td>9</td></tr>
+ <tr><td>mitchell-oldsiana</td><td>mitchell-oldsiana*</td><td>41</td></tr>
+ <tr><td>paupercula</td><td>murray*</td><td>13</td></tr>
+ <tr><td>perennans</td><td>nevadensis</td><td>24</td></tr>
+ <tr><td>paupercula</td><td>nubigena*</td><td>42</td></tr>
+ <tr><td>perennans</td><td>oxylobula</td><td>35</td></tr>
+ <tr><td>parishii</td><td>parishii</td><td>57</td></tr>
+ <tr><td>paupercula</td><td>paupercula</td><td>23</td></tr>
+ <tr><td>perennans</td><td>pendulina</td><td>40</td></tr>
+ <tr><td>pendulocarpa</td><td>pendulocarpa</td><td>41</td></tr>
+ <tr><td>perennans</td><td>perennans</td><td>129</td></tr>
+ <tr><td>perstellata</td><td>perstellata</td><td>0</td></tr>
+ <tr><td>platysperma</td><td>platysperma</td><td>21</td></tr>
+ <tr><td>puberula</td><td>puberula</td><td>25</td></tr>
+ <tr><td>pulchra</td><td>pulchra</td><td>43</td></tr>
+ <tr><td>pygmaea</td><td>pygmaea</td><td>19</td></tr>
+ <tr><td>rectissima</td><td>rectissima</td><td>24</td></tr>
+ <tr><td>repanda</td><td>repanda</td><td>5</td></tr>
+ <tr><td>retrofracta</td><td>retrofracta</td><td>59</td></tr>
+ <tr><td>retrofracta</td><td>retrofracta (p)</td><td>25</td></tr>
+ <tr><td>platysperma</td><td>roguensis*</td><td>7</td></tr>
+ <tr><td>suffrutescens</td><td>rollei</td><td>12</td></tr>
+ <tr><td>retrofracta</td><td>saskatchewanensis*</td><td>23</td></tr>
+ <tr><td>perennans</td><td>schistacea</td><td>126</td></tr>
+ <tr><td>serotina</td><td>serotina</td><td>3</td></tr>
+ <tr><td>puberula</td><td>serpenticola</td><td>15</td></tr>
+ <tr><td>sparsiflora</td><td>shastaensis</td><td>23</td></tr>
+ <tr><td>davidsonii</td><td>shevockii</td><td>9</td></tr>
+ <tr><td>shockleyi</td><td>shockleyi</td><td>46</td></tr>
+ <tr><td>sparsiflora</td><td>sparsiflora</td><td>36</td></tr>
+ <tr><td>perennans</td><td>spatifolia</td><td>50</td></tr>
+ <tr><td>sparsiflora</td><td>stipitata</td><td>15</td></tr>
+ <tr><td>stricta</td><td>stricta</td><td>115</td></tr>
+ <tr><td>puberula</td><td>subpinnatifida</td><td>28</td></tr>
+ <tr><td>suffrutescens</td><td>suffrutescens</td><td>6</td></tr>
+ <tr><td>platysperma</td><td>tahoensis*</td><td>2</td></tr>
+ <tr><td>perennans</td><td>texana</td><td>38</td></tr>
+ <tr><td>microphylla</td><td>thompsonii</td><td>83</td></tr>
+ <tr><td>cobrensis</td><td>uintaensis*</td><td>14</td></tr>
+ <tr><td>pendulocarpa</td><td>ursalaca</td><td>18</td></tr>
+ <tr><td>paupercula</td><td>wallowaensis*</td><td>2</td></tr>
+ <tr><td>paupercula</td><td>williamsii</td><td>17</td></tr>
+ <tr><td>perennans</td><td>wyomingensis*</td><td>36</td></tr>
+ <tr><td>microphylla</td><td>yellowstonensis*</td><td>8</td></tr>
+ <tr><td>yorkii</td><td>yorkii</td><td>1</td></tr>
+</tbody></table>
+</body>
+</html>

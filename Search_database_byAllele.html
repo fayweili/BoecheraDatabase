@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>MDW</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#F5ECCE;
+	}
+th {
+	font-size:10pt;
+	}
+td {
+	font-size:10pt;
+	}
+</style>
+</head>
+<body>
+	<h1></h1>
+		<h2>TESLA: Taxon Enquiry based on Similarity of Loci and Alleles </h2>
+		<form action = 'cgi-bin/Search_database_byAllele.py'>
+		<table>
+		<tr>
+		<td><label>I3: </label></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' size='10'></td>
+		<td><input type='text' name='I3' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>			
+		<td><label>A1: </label></td>
+		<td><input type='text' name='A1' size='10'></td>
+		<td><input type='text' name='A1' size='10'></td>
+		<td><input type='text' name='A1' size='10'></td>
+		<td><input type='text' name='A1' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='A1' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='A1' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='A1' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>B20: </label></td>
+		<td><input type='text' name='B20' size='10'></td>
+		<td><input type='text' name='B20' size='10'></td>
+		<td><input type='text' name='B20' size='10'></td>
+		<td><input type='text' name='B20' size='10'></td>
+		<td><input type='text' name='B20' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B20' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B20' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>B11: </label></td>
+		<td><input type='text' name='B11' size='10'></td>
+		<td><input type='text' name='B11' size='10'></td>
+		<td><input type='text' name='B11' size='10'></td>
+		<td><input type='text' name='B11' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B11' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B11' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B11' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>C8: </label></td>
+		<td><input type='text' name='C8' size='10'></td>
+		<td><input type='text' name='C8' size='10'></td>
+		<td><input type='text' name='C8' size='10'></td>
+		<td><input type='text' name='C8' size='10'></td>
+		<td><input type='text' name='C8' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='C8' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='C8' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>I14: </label></td>
+		<td><input type='text' name='I14' size='10'></td>
+		<td><input type='text' name='I14' size='10'></td>
+		<td><input type='text' name='I14' size='10'></td>
+		<td><input type='text' name='I14' size='10'></td>
+		<td><input type='text' name='I14' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='I14' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='I14' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>B9: </label></td>
+		<td><input type='text' name='B9' size='10'></td>
+		<td><input type='text' name='B9' size='10'></td>
+		<td><input type='text' name='B9' size='10'></td>
+		<td><input type='text' name='B9' size='10'></td>
+		<td><input type='text' name='B9' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B9' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B9' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>E9: </label></td>
+		<td><input type='text' name='E9' size='10'></td>
+		<td><input type='text' name='E9' size='10'></td>
+		<td><input type='text' name='E9' size='10'></td>
+		<td><input type='text' name='E9' size='10'></td>
+		<td><input type='text' name='E9' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='E9' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='E9' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>B18: </label></td>
+		<td><input type='text' name='B18' size='10'></td>
+		<td><input type='text' name='B18' size='10'></td>
+		<td><input type='text' name='B18' size='10'></td>
+		<td><input type='text' name='B18' size='10'></td>
+		<td><input type='text' name='B18' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B18' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B18' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>BF3: </label></td>
+		<td><input type='text' name='BF3' size='10'></td>
+		<td><input type='text' name='BF3' size='10'></td>
+		<td><input type='text' name='BF3' size='10'></td>
+		<td><input type='text' name='BF3' size='10'></td>
+		<td><input type='text' name='BF3' size='10'></td>
+		<td><input type='text' name='BF3' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='BF3' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>B6: </label></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		<td><input type='text' name='B6' size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>BF19: </label></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' size='10'></td>
+		<td><input type='text' name='BF19' style="color: #bfbfbf;" size='10'></td>
+		</tr>								
+
+		<tr>	
+		<td><label>BF15: </label></td>
+		<td><input type='text' name='BF15' size='10'></td>
+		<td><input type='text' name='BF15' size='10'></td>
+		<td><input type='text' name='BF15' size='10'></td>
+		<td><input type='text' name='BF15' size='10'></td>
+		<td><input type='text' name='BF15' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='BF15' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='BF15' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+
+		<tr>	
+		<td><label>A3: </label></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' size='10'></td>
+		<td><input type='text' name='A3' style="color: #bfbfbf;" size='10'></td>
+		</tr>
+		
+		<tr>	
+		<td><label>B266: </label></td>
+		<td><input type='text' name='B266' size='10'></td>
+		<td><input type='text' name='B266' size='10'></td>
+		<td><input type='text' name='B266' size='10'></td>
+		<td><input type='text' name='B266' size='10'></td>
+		<td><input type='text' name='B266' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B266' style="color: #bfbfbf;" size='10'></td>
+		<td><input type='text' name='B266' style="color: #bfbfbf;" size='10'></td>
+		</tr>		
+		</table>		
+		<br>
+		<input type="checkbox" name="MatchOnlyDiploid" value="MatchOnlyDiploid">Search only sexual diploids (i.e. heterozygosity < 0.5) <br><br>
+		<button type='submit'>Enter</button><br>
+
+	</form>
+</body>
+</html>
